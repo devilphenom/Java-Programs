@@ -1,0 +1,81 @@
+1) Write a java program to take array length as input from user and create 
+an integer array . Create an integer array and store elements into the array 
+by taking elements as input from keyboard.Before Swapping print the 
+contents of array Ask user to enter 2 indexes . Swap the the values of 2 indexes
+After swapping print the contents of array.
+
+Sample input output
+
+Before swapping
+Arr--> 10 20 30 40 50
+After Swapping
+Arr-->10 30 20 40 50
+
+====================================================================================
+
+2) Write a java program to take array length as input from user and create an 
+integer array. Take elements from user and  store elements into the array 
+Call a method printArray present in PrintArray class which will print the 
+array in forward direction and in reverse direction.
+
+
+=======================================================================================
+
+3) Check whether an element is present in an array or not (linear search):
+Problem: We're given an array of numbers and a specific number called the 
+"target." Our task is to determine whether this target number is present within 
+our array or not.
+
+Approach: Here's a simple way we could solve this problem. We'll start at the
+ beginning of our array and check each element one by one to see if it's the 
+ same as our target number. This process is known as linear search - think of 
+ it as taking a magnifying glass and going down the line of our array, 
+ examining each number closely. If we find a match, we can immediately say that 
+ the target is indeed present in the array. If we get to the end of the array 
+ without finding the target, then it's safe to say the target is not present 
+ in the array.
+ 
+
+public class ArraySearch 
+{
+ public static void main(String[] args) 
+{
+//Complete code here
+}
+}
+Class Search
+{
+Public boolean isPresent(int arr[],int target)
+{
+//Complete code here
+}
+}
+
+====================================================================================
+
+4) Copy all elements of one array into another array:
+Problem: We're given an array, and we need to create a new array that contains 
+all the elements of the original array.
+
+Approach: We will iterate through the given array and copy each element to the 
+new array at the same index. The new array will be of the same size as the 
+original array.
+
+Boiler Plate Code
+Class CopyArray
+{
+//main method and rest of the code.
+
+}
+
+====================================================================================
+
+
+
+
+
+
+
+
+
+

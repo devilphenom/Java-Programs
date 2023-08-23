@@ -1,0 +1,33 @@
+1) Calculate the sum of all elements in an integer array:
+Problem: We're given an array of integers, and we want to find the sum of all its 
+elements.
+
+Approach: We will iterate through the array and add each element to a "sum" 
+variable. By the time we've looked at every element in the array, our "sum" 
+variable will contain the total sum of all elements in the array.
+
+===================================================================================
+
+2) Merge elements of 2 arrays into a 3rd array:
+Problem: We have two arrays, and we want to combine them into a third array.
+
+Approach: We will create a third array that has a size equal to the sum of the 
+sizes of the first two arrays. We'll then copy all elements from the first array 
+to the third array, and then continue where we left off by copying all elements 
+from the second array to the third array.
+
+===================================================================================
+
+3)Calculate the sum of corresponding elements of an array and store in a 3rd array:
+
+Problem: We're given two arrays of the same size, and we want to create a third 
+array such that each element in this array is the sum of the corresponding 
+elements in the first two arrays.
+
+Approach: We will create a third array that is the same size as the first two 
+arrays. We'll then go through a for loop where we add the corresponding elements 
+of the first two arrays and store the result in the third array.
+
+===========================================================================================
+4) Write a java program to replace all the negative numbers in an integer 
+   array to 0(zero).

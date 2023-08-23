@@ -1,0 +1,16 @@
+Question Description:
+Create a program that identifies the type of a polygon based on the number of its sides. The program should accept an integer 'sides' as input.
+Boiler Plate Code:
+public class Main 
+{ 
+public static void identifyPolygon(int sides)
+ {
+ // your code here 
+}
+ public static void main(String[] args) 
+{ 
+
+ } 
+}
+Sample Input: 4
+Sample Output: Quadrilateral
